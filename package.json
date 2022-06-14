@@ -1,0 +1,22 @@
+{
+  "name": "blog-rest-api",
+  "version": "1.0.0",
+  "description": "Blog Rest API --------------------------------------------------------------- Here we are creating a rest api for blogging applications which will help us as well as others to build their own frontend, people can help by contributing in our project so that we can improve our code base.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarsh-shahi/blog-rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarsh-shahi/blog-rest-api/issues"
+  },
+  "homepage": "https://github.com/adarsh-shahi/blog-rest-api#readme",
+  "dependencies": {
+    "mongoose": "^6.3.8"
+  }
+}
