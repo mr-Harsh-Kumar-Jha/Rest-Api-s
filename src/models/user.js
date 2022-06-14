@@ -67,11 +67,18 @@ const userSchema = new mongoose.Schema({
             linkedin: {
                 type: String
             }
+    },
+
+    about: {
+        type: String,
+        trim: true,
+        maxlength: 30
     }
+
+   
 }, {
     timestamps: true
 }) 
-
 
 const User = mongoose.model('User', userSchema)
 
