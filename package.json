@@ -1,0 +1,31 @@
+{
+  "name": "blog-rest-api",
+  "version": "1.0.0",
+  "description": "Rest Api for bloggin apllication",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adarsh-shahi/blog-rest-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adarsh-shahi/blog-rest-api/issues"
+  },
+  "homepage": "https://github.com/adarsh-shahi/blog-rest-api#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.8",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}

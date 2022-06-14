@@ -1,7 +1,9 @@
-#About This Project
+Blog Rest API
 ---------------------------------------------------------------
-Here we are creating a rest api which will help us as well as others to fork our project in order to build authentication system , and help by contributing in our project so that we can improve our code base .
+Here we are creating a rest api for blogging applications which will help us as well as others to build their own frontend, people can help by contributing in our project so that we can improve our code base.
+
 
 #Members
---------------------------------------------------------------
-This project is being made in collabration of Me(@mr-Harsh-Kumar-Jha) and Adarsh(@adarsh-shahi)
+
+(@mr-Harsh-Kumar-Jha)
+(@adarsh-shahi)
