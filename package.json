@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/adarsh-shahi/blog-rest-api#readme",
   "dependencies": {
-    "mongoose": "^6.3.8"
+    "mongoose": "^6.3.8",
+    "validator": "^13.7.0"
   }
 }
