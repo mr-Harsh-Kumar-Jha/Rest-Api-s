@@ -78,7 +78,16 @@ const userSchema = new mongoose.Schema({
    
 }, {
     timestamps: true
-}) 
+})
+
+
+// restricitig not to send password and token in response
+userSchema.methods.toJSON = function() {
+    const userObject = this.toObject()
+    delete userObject.password
+    delete userObject.tokens
+    return userObject
+}
 
 const User = mongoose.model('User', userSchema)
 
