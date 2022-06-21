@@ -3,6 +3,7 @@ const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const router = new express.Router();
 const User = require("../models/user");
+const authMiddleware = require('./verifyTokenAndAuth')
 
 // Registering a user
 router.post("/register", async (req, res) => {
@@ -41,5 +42,9 @@ router.post("/login", async (req, res) => {
 		res.status(500).send();
 	}
 });
+
+router.post('/logout', authMiddleware, (req, res) => {
+    res.send({msg: "user is authenticated"})
+})
 
 module.exports = router;
