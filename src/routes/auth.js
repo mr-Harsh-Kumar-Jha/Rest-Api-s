@@ -36,6 +36,7 @@ router.post("/login", async (req, res) => {
                 user.tokens = user.tokens.concat({ token });
 		        await user.save();
                 res.status(200).send({user, token});
+                res.send({msg: "user is authenticated"});
             }
 		}
 	} catch (e) {
@@ -44,7 +45,7 @@ router.post("/login", async (req, res) => {
 });
 
 router.post('/logout', authMiddleware, (req, res) => {
-    res.send({msg: "user is authenticated"})
+    res.send({msg: "user is successfully logedout"});
 })
 
 module.exports = router;
